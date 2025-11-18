@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f4f4; }
+.container { max-width: 900px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+h1 { text-align: center; color: #2c3e50; margin-bottom: 10px; }
+nav { text-align: center; margin-bottom: 20px; }
+nav a { margin: 0 10px; color: #3498db; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+
+.form-marcar { max-width: 400px; margin: 20px auto; text-align: center; }
+.form-marcar input[type="text"] { width: 100%; padding: 10px; margin: 10px 0; font-size: 16px; }
+.botones button { padding: 12px 20px; margin: 5px; font-size: 16px; cursor: pointer; border: none; color: white; border-radius: 5px; }
+.btn.entrada { background: #27ae60; }
+.btn.salida { background: #c0392b; }
+
+.mensaje { padding: 10px; margin: 15px 0; border-radius: 5px; text-align: center; }
+.mensaje.exito { background: #d5f5e3; color: #27ae60; border: 1px solid #27ae60; }
+.mensaje.error { background: #fadbd8; color: #c0392b; border: 1px solid #c0392b; }
+
+.form-fecha { margin: 15px 0; text-align: center; }
+.form-fecha input[type="date"] { padding: 8px; }
+
+.tabla { width: 100%; border-collapse: collapse; margin-top: 15px; }
+.tabla th, .tabla td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+.tabla th { background: #3498db; color: white; }
+.tipo-entrada { color: #27ae60; font-weight: bold; }
+.tipo-salida { color: #c0392b; font-weight: bold; }
+
+/* ... estilos anteriores ... */
+
+.login-box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-login {
+    background: #3498db;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-login:hover {
+    background: #2980b9;
+}
+
+.error {
+    background: #fadbd8;
+    color: #c0392b;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
